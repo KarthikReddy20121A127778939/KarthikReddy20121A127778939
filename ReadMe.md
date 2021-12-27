@@ -50,3 +50,7 @@
 - git add file1 file2 file3
 - git add . (or) git add --all
 - git status
+- git commit -m "ReadMe.md and sample.html files are added" (Commit Message)
+- git config --global user.name "KarthikReddy20121A127778939"
+- git config --global user.email "karthikreddy.maru@gmail.com"
+- comit data with comit message
