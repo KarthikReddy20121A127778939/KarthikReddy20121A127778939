@@ -174,6 +174,44 @@ selector{
 	- padding : 10px 20px 30px(10px for top , 20px for right and left, 30px for bottom)
 	- padding : 10px 20x 30px 40px(10px for top,20px for right,30px for bottom,40px for left)
 + Width
+- 1 rem = 16px
 
+
++ Task 2:
+
+===========
+
+	- Index
+	- Register
+	- Login
+
+===========
+
+
+### Responsive Web Design
+
+### Flex-Box
+
+
++ Display
+	- none
+	- inline
+	- block
+	- inline - block
+	- flex
+		- flex-wrap
+		- justify-content
+		- flex-direction
+		- flex-flow
+		
++ Position
+	- static
+	- relative
+	- absolute
+	- fixed
+	- sticky
++ algin-content
++ align-items
++ align-self
 
 
