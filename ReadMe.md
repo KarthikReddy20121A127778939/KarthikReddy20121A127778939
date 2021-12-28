@@ -54,7 +54,8 @@
 - git config --global user.name "KarthikReddy20121A127778939"
 - git config --global user.email "karthikreddy.maru@gmail.com"
 - comit data with comit message
-- push the code into GitHub
+- git remote add origin "YOUR GIT LINK"
+- push the code into GitHub (git push -u origin master)
 
 
 
@@ -86,3 +87,93 @@
 	- legend
 	- sup
 	- sub
+- Some More Elements
+	- Audio
+	- Video
+	- Canvas
+	- Progress
+	- Meter
+	- DataList
+	- Select
+
+### Reference Links
+- Flaticon Link 
+	- https://www.flaticon.com/
+- Color Contrast 
+	- WebAim
+
+### CSS
+
+
+- Cascading Style Sheets
++ Types of CSS
+	- Inline CSS
+	- Internal CSS
+	- External CSS
+
++ Syntax of CSS
+
+...
+selector{
+	css properties
+}
+
+
+### Selctors
+
++ Simple Selectors
+
+
+	- By Element Name
+		-The element selector selects HTML elements based on the element name.
+
+	- Grouping selector (,)
+		- The grouping selector selects all the HTML elements with the same style definitions
+
+	- Class selector (.)
+		- The class selector selects HTML elements with a specific class attribute.
+		- To select elements with a specific class, write a period (.) character, followed by the class name.
+
+	- Id selector (#)
+		- The id selector uses the id attribute of an HTML element to select a specific element.
+		- The id of an element is unique within a page, so the id selector is used to select one unique element!
+		- To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+	- Universal Selector(*)
+		- The universal selector (*) selects all HTML elements on the page.
+
++ Combinators
+
+
+	+ Descendant Selector ( )
+		- The descendant selector matches all elements that are descendants of a specified element
+
+	+ Child selector (>)
+		- The child selector selects all elements that are the children of a specified element.
+
+	+ Adjacent sibling selector (+)
+		- The adjacent sibling selector is used to select an element that is directly after another specific element.
+		- Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+	+ General sibling selector (~)
+		- The general sibling selector selects all elements that are next siblings of a specified element.
+
++ Pseudo class selector
++ Pseudo element selector
++ Attribute selector
+
+
+
+### Box Model
+
++ Margin
++ Border 
++ Padding
+	- padding : 10px (for all adjacent sides)
+	- padding : 10px 20px(10px for Top and Bottom ,20px for right and Left )
+	- padding : 10px 20px 30px(10px for top , 20px for right and left, 30px for bottom)
+	- padding : 10px 20x 30px 40px(10px for top,20px for right,30px for bottom,40px for left)
++ Width
+
+
+
