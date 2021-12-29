@@ -215,3 +215,79 @@ selector{
 + align-self
 
 
+### Media Quries
+
+- Extra Small Devices (Mobiles)
+	- max-width:600px
+- small Devices (Large Phones or Small Tablets)
+	- min-width:600px
+	- max-width:768px
+- Medium Devices (Small Laptops)
+	- min-width:768px
+- Large devices (Large Laptops or Desktops)
+	- min-width:992px
+- Extra Large Devices ()
+	- min-width:1200px
+
+
+...
+
++ Syntax
+	- @media only screen (min-width:320px) and (max-width:500px){
+		CSS Code
+	}
+
+...
+
+
+### Bootstrap 4.6
+
+
+- It is a CSS framework
+- module (collections of functions and classes)
+- package (Collection of modules)
+- library (Collection of Packages)
+- framework (Collection of library)
+
++ module --> Package --> Library --> FrameWork
+
++ Types of Modes
+	- offline
+	- online
+		- CDN links
+
++ background-color - bg
++ text-white
+
++ Margin in Bootstrap(m-*(0-5))
+	- 0 --> 0rem
+	- 1 --> 0.25rem (4px)
+	- 2 --> 0.5rem (8px)
+	- 3 --> 1rem (16px)
+	- 4 --> 1.5rem (24px)
+	- 5 --> 3rem (48px)
+	- ml-5 (margin-left)
+	- m (margin in all directions)
+	- mt (margin-top)
+	- mb (margin-bottom)
+	- mr (margin-right)
+
++ Padding (padding left -->pl-5)
+
+
++ colors
+	- primary
+	- secondary
+	- info
+	- success
+	- Warning
+	- danger
+	- light
+	- dark
+	- white
+
++ We can use color classes for
+	- Buttons (btn btn-primary)
+	- text (text-white)
+	- backgroud (bg-secondary)
+	- alerts (alert alert-primary)

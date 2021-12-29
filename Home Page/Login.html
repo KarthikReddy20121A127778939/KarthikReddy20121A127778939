@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .login {
+            text-align: center;
+            border: 3px solid black;
+            width: 20rem;
+            border-radius:10px;
+        }
+        .login img {
+            width: 100%;
+        }
+        button {
+            padding: 5px;
+            margin: 10px 0px;
+            width: 40%;
+            border-radius: 4px;
+        }
+        .card {
+            margin-left: 550px;
+            margin-top: 150px;
+        }
+        button:hover{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body class="card">
+    <div class="login">
+        <img src="./profile2-Icon-SVG.jpg" alt="Profile Pic">
+        <br><br>
+        <label for="username">Enter Username</label>
+        <input type="text" placeholder="Ex:Karthik77" name="username" id="username" required>
+        <br><br>
+        <label for="password">Enter Password </label>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+        <button type="submit">Login</button>
+    </div>
+</body>
+</html>
