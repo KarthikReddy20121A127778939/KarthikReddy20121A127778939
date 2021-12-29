@@ -291,3 +291,10 @@ selector{
 	- text (text-white)
 	- backgroud (bg-secondary)
 	- alerts (alert alert-primary)
+
++ Grid System
+	- sm (Small Devices)
+	- md (Medium Devices)
+	- lg (Large devices)
+	- xl (Extra Large Devices)
+	
