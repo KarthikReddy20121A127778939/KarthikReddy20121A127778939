@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Java Script::</title>
+    <script src="./index.js">
+        // console.log("JS")
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+            <h2 id="demo">
+                Heading
+                <span>Text</span>
+                <a href="">Link</a>
+            </h2>
+        </div>
+    </div>
+    <script>
+        var main=document.querySelector(".main");
+        var child=document.querySelector(".child");
+        var heading=document.createElement('h1');
+        heading.textContent='Welcome';
+        child.appendChild(heading);
+        main.appendChild(child);
+        var content=document.getElementById("demo").innerHTML;
+        console.log(content)
+    </script>
+    <!-- <script>
+        console.log("Welcome")
+        console.log("JS")
+        function demo(){
+
+            var name = "RRR";
+            function list(){
+                var name1 = "MKR";
+                console.log(name);
+            }
+            list();
+            console.log(name1);
+       }
+       console.log(demo());
+    if(true){
+        let name = "K";
+        console.log(name);
+    }
+    console.log(name)
+ </script> -->
+</body>
+</html>

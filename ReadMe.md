@@ -297,4 +297,167 @@ selector{
 	- md (Medium Devices)
 	- lg (Large devices)
 	- xl (Extra Large Devices)
-	
++ Modal
++ Table
+
+
+
+### JavaScript
+
++ In 1995 " Brendon Eich " Introduced JavaScript (ES-262)
+
++ Text-Based programming language and we can use in clint-side and server-side(Node.js)
+  for dynamic web applications
+
++ JavaScript loosely tuple and dynamic Language
+	- ECMA-Script (ES-6)
+	- let & const
+	- map()
+	- arrow function
+	- classes
+	- spread Operator
+	- next Parameter
+
++ DataTypes
+	- Number
+	- BigInt(2^53-1)
+	- String
+	- Boolean
+	- Undefined
+	- Null
+	- Object
+	- Array
+
++ Variables
+	- var , let & const
+	- Scope
+		- Function level --> var
+		- Block Level --> let & const
+	- Redefine
+		- var,let
+		- const cannot redefine
+	- Redeclare
+		- var
+		- const,let cannot redeclare
+
++ typeof()
+	- Using before declaring a variable is called as Hoisting
++ object 
+
+....
+
+	{
+		name="K"
+	}
+
+....
+
++ Array
+
+### Alerts	
+
++ To generate Notification
+	- alert
+	- promt
+	- confirm
+
++ console statements
+	- `console.log()`
+	- `console.info()`
+	- `console.warn()`
+	- `console.error()`
+
++ Spread Operator
+	- To change Array Elements from one array to another array(Swap)
+	...
+
+	...variable name
+
+
+	...
+
++ Rest Parameter
+	+ to handle function parameters
+
+...
+
+...parameter
+
+...
+
++ Destructuring of Array and Objects
+
+
++ Functions
+
+- function with functionname
+...
+
+function demo(x,y){
+	return x+y
+}
+demo()
+...
+- Anoymous Function
+...
+let demo = function(x,y){
+    return x+y
+}
+console.log(demo(2,3))
+
+- Arrow Function 
+...
+
+let demo = (x,y)=>{
+    return x*y
+}
+console.log(demo(2,3))
+
+...
+
++ for-in
+	- To get Index Values
++ for-of
+	- To get elements in a array
+
++ foreach() -->  (ES-5)
++ map -->  (ES-6)
+
+### DOM
+
+	- Document Object Model
+	- Document
+	- History
+	- Window
+	- Navigator 
+
++ DOM Methods
+	- `getElementById()`
+	- `getElementByClassName()`
+	- `innerText`
+	- `textContent`
+	- `append`
+	- `appendChild`
+	- `InnerHTML`
+	- `setAttribute()`
+	- `classList`
+	- `style`
+	- `src`
+
+
+### JSON                                                                                         
++ JavaScript Object Notation
+	- To Exchange information between application and server
+
+...
+{
+	"name":"X",
+	"Salary":"6.5LPA",
+	"designation":"Web Developer",
+	"Mobile":9876543210
+}
+...
+
++ Ajax call or Promises (fetch API) or axios
+
+

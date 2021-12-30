@@ -7,14 +7,14 @@
     <title>Home Page</title>
     <style>
         h1 {
-            display: inline;
-            margin-left: 530px;
+            display: inline-block;
+            margin-left: 130px;
         }
         ul {
             list-style-type: none;
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            /* flex-direction: row; */
+            justify-content: space-around;
             background-color: black;
             padding: 10px;
         }
@@ -27,13 +27,72 @@
             padding: 2px;
             color: whitesmoke;
         }
+        .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        }
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        }
+        .dropdown-content a:hover 
+        {
+            background-color: #f1f1f1
+        }
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+        .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+        }
+        .dropdown{
+            display: none;
+        }
+        @media screen and (max-width:768px){
+            .list {
+                display:none;
+            }
+            .dropdown{
+                display: block;
+                float: right;
+            }
+        }
     </style>
 </head>
 <body>
-    <img src="./apssdc-logo-p0koxarnyqz5josc6sfaj09u4a3toadrw919tvpfy8.jpg" alt="apssdc logo" height="100ox" width="100px">
+    <img src="./apssdc-logo-p0koxarnyqz5josc6sfaj09u4a3toadrw919tvpfy8.jpg" alt="apssdc logo" height="100px" width="100px">
     <h1>APSSDC HOME PAGE</h1>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+        <a href="">HOME</a>
+        <a href="">Services</a>
+        <a href="">About Us</a>
+        <a href="">Contact</a>
+        <a href="./Login.html">Sign-In</a>
+        <a href="./Register.html">Sign-Up</a>
+    </div>
+    </div>
     <div>
-        <ul>
+        <ul class="list">
             <li><a href="" style="color: whitesmoke; text-decoration: none;">Home</a></li>
             <li><a href="" style="color: whitesmoke; text-decoration: none;">Services</a></li>
             <li><a href="" style="color: whitesmoke; text-decoration: none;">About Us</a></li>
@@ -41,11 +100,11 @@
             <li><form action="./Login.html">
                 <button type="submit">Sign-in</button>
             </form></li>
-            <li><form action="./Register2.html">
+            <li><form action="./Register.html">
                 <button type="submit">Sign-Up</button>
             </form></li> 
         </ul>
     </div>
-    <img src="./WhatsApp Image 2021-12-26 at 5.59.21 PM.jpeg" alt="Apssdc Poster">
+    <img src="./WhatsApp Image 2021-12-26 at 5.59.21 PM.jpeg" alt="Apssdc Poster" width="">
 </body>
 </html>
