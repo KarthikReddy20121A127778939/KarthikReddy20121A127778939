@@ -460,4 +460,91 @@ console.log(demo(2,3))
 
 + Ajax call or Promises (fetch API) or axios
 
+### ReactJS
 
++ It is a Library
++ it follows components based architecture
+        - Functional component
+        - Class Component
+        - Pure Component
+        - Higher order Component
++ It provides Virtual DOM
++ It provides JSX (JavaScript and XML)
++ Unidirectional dataflow
++ Single Page Applicatios
+
+
++ Props
+
+	- To pass data from one component to another component we will use Props
+	- Props are immutable
+
+	+ UnionBank (Functional)
+	- Andhra Bank (Functional)
+	- Coorporation Bank(Class)
+
++ States
+
+- In react to maintain information we will use States
+- we can maintain states in class component only (Before react16.8 version)
+- to take state in react,Try to create the constructor above the render method and
+inside the class component
+- use `rconst` snippet
+...
+
+constructor(){
+	super();
+	this.state={
+
+
+	}
+}
+
+...
+
+- To Update the state Information in class component use `setState()` method
+- To Update the information inclass class component we have to follow component
+  life cycle methods
+	- `componetWillReceiveProps()`
+	- `componentwillMount()`
+	- `componentDidMount()`
+	- `shouldcomponentUpdate()`
+	- `componentWillUpdate()`
+	- `componentDidUpdate()`
+	- `componentWillUnmount()`
+
+### Hooks
+
++ from react 16.8 Hooks are introduced
+
+- Parent - child1 --> child2 --> child3
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `use`
+- 
++ Project Environment Setup
+- [Download_NodeJS]
+- [Download_VisualStudioCode]
+- Install NodeJS and Check versions of `node ` and ` npm`
+        - `node-v`
+        - `npm-v`
+- `webpack` and `babel`
+- `create-react-app`
+	- `npm install create-react app`
+		- `create-react app propjectname`
+- `npx create-react-app appname` 
+
++ Index.html
++ index.js
++ App.js
++ Index Page
+	- nav.js
+	- body.js
+	- footer.js
+
++ login.js
++ Register 
++ About
++ Contact
