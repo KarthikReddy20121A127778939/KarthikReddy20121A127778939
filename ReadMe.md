@@ -516,6 +516,7 @@ constructor(){
 ### Hooks
 
 + from react 16.8 Hooks are introduced
+- To maintain information in Functional component we can use `Hooks`
 
 - Parent - child1 --> child2 --> child3
 - `useState()`
@@ -539,9 +540,23 @@ constructor(){
 	- `BrowserRouter`
 	- `Routes`
 	- `Route`
+	- `Link`
 	- `path`
 	- `element`
 
+
++ Redux
+
+- uname
+- pword
+- email
+	- submit
+
+
+- Update
+	- uname --> Null
+	- pword --> pword
+	- email --> email
 
 + Project Environment Setup
 - [Download_NodeJS]
