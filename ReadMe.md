@@ -522,8 +522,27 @@ constructor(){
 - `useEffect()`
 - `useMemo()`
 - `useRef()`
-- `use`
-- 
+- `useContext()`
+
+### List Render
+
+### Event Handling & FormRendering
+
+- `onChange`
+- `onSubmit`
+- `preventDefault()`
+
+### Routing in React
+
++ To navigate (Route) from one component to another
+	- Install react-router-dom packageby using `npm install react-router-dom`
+	- `BrowserRouter`
+	- `Routes`
+	- `Route`
+	- `path`
+	- `element`
+
+
 + Project Environment Setup
 - [Download_NodeJS]
 - [Download_VisualStudioCode]
